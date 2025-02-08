@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-bg-body: #141414;
+    --color-bg-profile: #1F1F1F;
+
+    --small-spacing: 1rem;
+    --medium-spacing: 2rem;
+    --large-spacing: 3rem;
+
+    --color-white: #d4d4d4;
+    --color-green: #a2c034;
+    --color-gray: rgb(170, 170, 170);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    height: 100dvh;
+    background-color: var(--color-bg-body);
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+.social-profile {
+    background-color: var(--color-bg-profile);
+    width: 40rem;
+    height: 100%;
+    max-height: 64rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.055);
+
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.social-profile__avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20rem;
+}
+
+.social-profile__user-name {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--color-white);
+    padding: var(--large-spacing) 0 var(--small-spacing) 0;
+}
+
+.social-profile__user-location {
+    color: var(--color-green);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.social-profile__user-description {
+    margin-top: var(--large-spacing);
+    color: var(--color-gray);
+    font-size: 1.4rem;
+}
+
+.social-profile__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    margin: var(--small-spacing);
+}
+
+.social-profile__link {
+    background-color: #333333;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--color-white);
+    font-weight: 600;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.social-profile__link a {
+    color: inherit;
+    text-decoration: none;
+}
