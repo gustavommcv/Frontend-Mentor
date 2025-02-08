@@ -8,3 +8,6 @@ Check it out here: [**QR Code Component**](https://gustavommcv.github.io/Fronten
 
 - **Blog Preview Card:**  
 Check it out here: [**Blog Preview Card**](https://gustavommcv.github.io/Frontend-Mentor/Blog%20preview%20card/blog-preview-card-main/)
+
+- **Social Links Profile:**  
+Check it out here: [**Social Links Profile**](https://gustavommcv.github.io/Frontend-Mentor/Social%20Links%20Profile/social-links-profile-main/)
