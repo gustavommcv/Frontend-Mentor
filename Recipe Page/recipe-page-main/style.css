@@ -31,11 +31,11 @@ html {
 }
 
 body {
-    height: 100vh;
     background-color: var(--color-bg-body);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem;
 }
 
 .main {
