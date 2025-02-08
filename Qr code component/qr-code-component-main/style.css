@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-background: #D6E1F0;
+    --color-qr-component-bg: #FDFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+
+    height: 100dvh;
+}
+
+main {
+    position: relative;
+    height: 100%;
+}
+
+.qr-component {
+    background-color: var(--color-qr-component-bg);
+    width: 100%;
+    max-width: 35rem;
+    padding: 2rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    max-height: 52rem;
+
+    text-align: center;
+
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.24);
+}
+
+.qr-component__image {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.qr-component__title {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 0 2rem;
+    color: #4A4C50;
+}
+
+.qr-component__description {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding: 0 3rem;
+    color: gray;
+}
