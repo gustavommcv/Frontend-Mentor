@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/static/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+:root {
+    --color-background: #F6D050;
+
+    --border-radius: 20px
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: var(--color-background);
+    height: 100dvh;
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+.preview-card {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+    box-shadow: 8px 8px 0px #000100;
+    border: 1px solid #000100;
+
+    padding: 2rem;
+    border-radius: var(--border-radius);
+
+    background-color: #FFFFFF;
+    height: 100%;
+    max-height: 53rem;
+}
+
+.preview-card__image {
+    border-radius: var(--border-radius);
+}
+
+.preview-card__tag {
+    background-color: var(--color-background);
+    width: fit-content;
+    padding: .6rem 1.5rem;
+
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-radius: 5px;
+
+    margin-top: 2rem;
+}
+
+.preview-card__date {
+    font-size: 1.4rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    color: #353535;
+}
+
+.preview-card__title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.preview-card__description {
+    color: #5c5c5c;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+    margin: 1.5rem 0;
+}
+
+.preview-card__user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3.5rem;
+}
+
+.preview-card__user-image {
+    height: 3.5rem;
+    width: auto;
+}
+
+.preview-card__user-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
