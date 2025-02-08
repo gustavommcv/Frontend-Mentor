@@ -33,7 +33,9 @@ html {
 body {
     height: 100dvh;
     background-color: var(--color-bg-body);
-    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main {
@@ -44,10 +46,6 @@ body {
     padding: 3rem;
 
     border-radius: var(--border-radius-size);
-
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .main__section-title {
