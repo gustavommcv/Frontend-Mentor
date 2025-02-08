@@ -5,3 +5,6 @@ Welcome to my Frontend Mentor exercises repository! 🚀 Here, you'll find proje
 
 - **QR Code Component:**  
 Check it out here: [**QR Code Component**](https://gustavommcv.github.io/Frontend-Mentor/Qr%20code%20component/qr-code-component-main/)  
+
+- **Blog Preview Card:**  
+Check it out here: [**Blog Preview Card**](https://gustavommcv.github.io/Frontend-Mentor/Blog%20preview%20card/blog-preview-card-main/)
