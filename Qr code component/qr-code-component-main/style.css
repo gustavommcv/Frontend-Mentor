@@ -3,12 +3,23 @@
 :root {
     --color-background: #D6E1F0;
     --color-qr-component-bg: #FDFFFF;
+    --color-title: #1F3251;
+    --color-description: #68778D;
+
+    --border-radius-size: 20px;
+    --font-size-base: 1.6rem;
+    --font-size-title: 2rem;
+    --font-size-description: 1.4em;
+    --small-spacing: 1rem;
+    --medium-spacing: 2rem;
+    --large-spacing: 3rem;
+
+    --box-shadow: 3px 6px 15px rgba(0, 0, 0, 0.068);
 }
 
 * {
     padding: 0;
     margin: 0;
-
     box-sizing: border-box;
 }
 
@@ -20,7 +31,6 @@ body {
     background-color: var(--color-background);
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-
     height: 100dvh;
 }
 
@@ -32,36 +42,36 @@ main {
 .qr-component {
     background-color: var(--color-qr-component-bg);
     width: 100%;
-    max-width: 35rem;
-    padding: 2rem;
-    border-radius: 20px;
+    max-width: 34rem;
+    padding: var(--medium-spacing);
+    border-radius: var(--border-radius-size);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 100%;
-    max-height: 52rem;
-
+    height: auto;
+    max-height: 53rem;
     text-align: center;
-
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.24);
+    box-shadow: var(--box-shadow);
 }
 
 .qr-component__image {
     width: 100%;
-    border-radius: 20px;
+    border-radius: var(--border-radius-size);
 }
 
 .qr-component__title {
-    margin-top: 2rem;
-    font-size: 2rem;
-    padding: 0 2rem;
-    color: #4A4C50;
+    margin-top: var(--large-spacing);
+    font-size: var(--font-size-title);
+    font-weight: 800;
+    padding: 0 var(--medium-spacing);
+    color: var(--color-title);
 }
 
 .qr-component__description {
-    margin-top: 2rem;
-    font-size: 1.4rem;
-    padding: 0 3rem;
-    color: gray;
+    margin-top: var(--medium-spacing);
+    font-size: var(--font-size-description);
+    padding: 0 var(--large-spacing) 2.5rem var(--medium-spacing);
+    color: var(--color-description);
+    font-weight: 500;
 }
