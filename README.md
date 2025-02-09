@@ -25,6 +25,9 @@ These beginner-friendly challenges are designed to help you master basic layouts
    - **🛍️ Product Preview Card**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Product%20preview%20card/product-preview-card-component-main/)
 
+   - **🃏 Four Card Feature**  
+    [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Four%20card%20feature/four-card-feature-section-master/)
+
 ---
 
 ### 🟢 **Junior Challenges**  
