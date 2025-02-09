@@ -49,7 +49,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem var(--medium-spacing);
+    padding: 5rem var(--xlarge-spacing);
 }
 
 .main__title {
@@ -125,5 +125,13 @@ strong {
 @media screen and (max-width: 1270px) {
     .main__container {
         flex-direction: column;
+    }
+
+    .main__title {
+        font-size: 2.7rem;
+    }
+
+    .main__description {
+        font-size: 1.7rem;
     }
 }
