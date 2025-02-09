@@ -1,6 +1,6 @@
 # **📂 Frontend Mentor Repository**  
 
-Welcome to my **Frontend Mentor Challenges Repository**! 🚀 This is where I showcase a collection of challenges I've completed, organized by difficulty levels. These projects help me improve my practical knowledge of **HTML, CSS, and JavaScript**, focusing on creating responsive, well-designed user interfaces while following **best coding practices**.
+Welcome to my **[Frontend Mentor](https://www.frontendmentor.io/) Challenges Repository**! 🚀 This is where I showcase a collection of challenges I've completed, organized by difficulty levels. These projects help me improve my practical knowledge of **HTML, CSS, and JavaScript**, focusing on creating responsive, well-designed user interfaces while following **best coding practices**.
 
 ---
 
@@ -8,11 +8,8 @@ Welcome to my **Frontend Mentor Challenges Repository**! 🚀 This is where I sh
 ### 🔰 **Newbie Challenges**  
 These beginner-friendly challenges are designed to help you master basic layouts, responsive design, and simple UI components.
 
-- **📗 Getting Started on Frontend Mentor**  
-  A collection of beginner challenges focused on HTML and CSS, perfect for those just starting out.
-
-  **Completed Projects:**  
-  - **📱 QR Code Component**  
+- **📗 Getting Started on Frontend Mentor**
+  - **📲 QR Code Component**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Qr%20code%20component/qr-code-component-main/)
 
   - **📰 Blog Preview Card**  
@@ -23,6 +20,10 @@ These beginner-friendly challenges are designed to help you master basic layouts
 
   - **🍕 Recipe Page**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Recipe%20Page/recipe-page-main/)
+
+- **📱Building responsive layouts**
+   - **🛍️ Product Preview Card**  
+    [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Product%20preview%20card/product-preview-card-component-main/)
 
 ---
 
