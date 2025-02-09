@@ -21,7 +21,7 @@ These beginner-friendly challenges are designed to help you master basic layouts
   - **🔗 Social Links Profile**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Social%20Links%20Profile/social-links-profile-main/)
 
-  - **🔗 Recipe Page**  
+  - **🍕 Recipe Page**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Recipe%20Page/recipe-page-main/)
 
 ---
