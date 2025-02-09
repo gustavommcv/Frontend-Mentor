@@ -52,6 +52,8 @@ main {
     overflow: hidden;
 
     border-radius: var(--border-radius);
+
+    transition: all .1s ease;
 }
 
 .product-card__image {
@@ -132,4 +134,38 @@ main {
 
 .product-card__button:hover {
     background-color: var(--color-dark-cyan-hover);
+}
+
+@media screen and (max-width: 670px) {
+    .product-card {
+        max-width: 35rem;
+        flex-direction: column;
+        max-height: fit-content;
+    }
+
+    .product-card__image {
+        width: 100%;
+        max-height: 25rem;
+    }
+
+    .product-card__info {
+        padding: 2rem;
+        height: 100%;
+    }
+
+    .product-card__title {
+        margin-top: var(--small-spacing);
+    }
+
+    .product-card__description {
+        margin-top: var(--small-spacing);
+    }
+
+    .product-card__price {
+        margin-top: var(--medium-spacing);
+    }
+
+    .product-card__button {
+        margin-top: var(--medium-spacing);
+    }
 }
