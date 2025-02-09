@@ -15,6 +15,8 @@
     --small-spacing: 1rem;
     --medium-spacing: 2rem;
     --large-spacing: 3rem;
+
+    --line-height: 1.9rem;
 }
 
 * {
@@ -77,6 +79,7 @@ body {
     margin-top: var(--small-spacing);
     font-size: 1.2rem;
     color: var(--color-description);
+    line-height: var(--line-height);
 }
 
 .main__preparation {
@@ -137,6 +140,7 @@ body {
 .main__instructions-instruction {
     padding-left: 1rem;
     margin-top: var(--small-spacing);
+    line-height: var(--line-height);
 }
 
 .main__instructions-instruction::marker {
