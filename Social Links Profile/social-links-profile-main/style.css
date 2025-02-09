@@ -9,7 +9,7 @@
     --large-spacing: 3rem;
 
     --color-white: #d4d4d4;
-    --color-green: #a2c034;
+    --color-green: #C5F82A;
     --color-gray: rgb(170, 170, 170);
 }
 
@@ -101,6 +101,13 @@ main {
     border-radius: 8px;
 
     cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.social-profile__link:hover {
+    background-color: var(--color-green);
+    color: var(--color-bg-profile);
 }
 
 .social-profile__link a {
