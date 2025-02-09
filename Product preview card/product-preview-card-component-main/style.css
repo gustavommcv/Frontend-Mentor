@@ -120,6 +120,14 @@ main {
 
     transition: background-color .3s ease;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+}
+
+.product-card__button svg {
+    width: 20px;
+    height: 20px;
 }
 
 .product-card__button:hover {
