@@ -12,6 +12,11 @@
 
     --color-light-gray: hsl(0, 0%, 81%);
     --color-light-grayish-blue: hsl(210, 46%, 95%);
+
+    --small-spacing: 1.5rem;
+    --medium-spacing: 2rem;
+    --large-spacing: 3rem;
+    --xlarge-spacing: 4rem;
 }
 
 * {
@@ -27,8 +32,135 @@ html {
 
 body {
     background-color: var(--color-light-grayish-blue);
+    height: 100dvh;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--large-spacing);
+
+    max-width: 120rem;
+    padding: var(--large-spacing);
+}
+
+.card {
+    padding: var(--large-spacing);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.253);
+}
+
+.card__user-profile {
+    display: flex;
+    gap: var(--small-spacing);
+}
+
+.card__user-image {
+    border-radius: 20rem;
+    width: 3rem;
+    border: 2px solid #A775F2;
+}
+
+.card__user-name {
+    color: var(--color-light-grayish-blue);
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.card__user-role {
+    color: var(--color-light-grayish-blue);
+    opacity: 0.5;
+    font-size: 1.1rem;
+    margin-top: .2rem;
+}
+
+.card__title {
+    margin-top: var(--small-spacing);
+    color: var(--color-light-grayish-blue);
+    font-weight: 600;
+}
+
+.card__content {
+    margin-top: var(--small-spacing);
+    font-size: 1.4rem;
+    color: var(--color-light-grayish-blue);
+    opacity: 0.6;
+}
+
+.card--daniel {
+    background-color: var(--color-moderate-violet);
+    grid-column: span 2;
+}
+
+.card--jonathan {
+    background-color: var(--color-very-dark-grayish-blue);
+}
+
+.card--jeanette, .card--kira {
+    background-color: var(--color-white);
+}
+
+.card__user-name--jeanette, .card__user-name--kira {
+    color: var(--color-very-dark-grayish-blue);
+}
+
+.card__user-role--jeanette, .card__user-role--kira {
+    color: var(--color-very-dark-grayish-blue);
+}
+
+.card__title--jeanette, .card__title--kira {
+    color: var(--color-very-dark-grayish-blue);
+}
+
+.card__content--jeanette, .card__content--kira {
+    color: var(--color-very-dark-grayish-blue);
+    opacity: 0.7;
+}
+
+.card__user-image--jeanette, .card__user-image--kira, .card__user-image--jonathan {
+    border: 2px solid var(--color-light-grayish-blue);
+}
+
+.card--kira {
+    grid-row: span 2;
+}
+
+.card--patrick {
+    grid-column: span 2;
+    background-color: var(--color-very-dark-blackish-blue);
+}
+
+@media screen and (max-width: 1080px) {
+    main {
+        align-items: baseline;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card--daniel {
+        grid-column: span 1;
+    }
+    
+    .card--jeanette {
+        order: 1;
+    }
+
+    .card--kira {
+        grid-row: span 1;
+        order: 3;
+    }
+
+    .card--patrick {
+        grid-column: span 1;
+        order: 2;
+    }
 }
