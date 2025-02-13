@@ -13,6 +13,7 @@ export default function createCardComponent(userName, role, title, content, user
 
     const cardUserImage = document.createElement('img');
     cardUserImage.src = userImage;
+    cardUserImage.alt = 'User Image';
     cardUserImage.classList.add('card__user-image');
     cardUserImage.classList.add(`card__user-image--${modifier}`);
     
