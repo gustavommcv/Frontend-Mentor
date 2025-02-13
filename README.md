@@ -28,6 +28,9 @@ These beginner-friendly challenges are designed to help you master basic layouts
    - **🃏 Four Card Feature**  
     [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Four%20card%20feature/four-card-feature-section-master/)
 
+   - **📔 Testimonials Grid Section**  
+    [🔗 **Live Demo**](https://gustavommcv.github.io/Frontend-Mentor/Testimonials%20Grid%20Section/testimonials-grid-section-main/)
+
 ---
 
 ### 🟢 **Junior Challenges**  
