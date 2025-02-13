@@ -96,6 +96,10 @@ main {
 
 .card--daniel {
     background-color: var(--color-moderate-violet);
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 80% 0%;
+    background-size: auto;
     grid-column: span 2;
 }
 
